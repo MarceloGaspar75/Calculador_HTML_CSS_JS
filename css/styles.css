@@ -25,6 +25,12 @@ body {
     gap: .5rem; 
 }
 
+#title {
+    grid-column: 1 /-1;
+    border: 1px;
+    text-align: center;
+}
+
 .visor{
     grid-column: 1 / -1;
     background-color: #41444A;
